@@ -1,0 +1,71 @@
+.battleBG{
+    -fx-background-image: url("/images/battlemap.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.battleHP{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: red;
+    -fx-border-color: red;
+}
+.battleDialog{
+    -fx-border-color: black;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: white;
+}
+.battleButton{
+    -fx-text-fill: white;
+    -fx-border-color: #000000;
+    -fx-background-color: #87CEEB;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+}
+.battleButton:hover{
+    -fx-background-color: #00BFFF;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}
+.mapBG {
+    -fx-background-image: url("/images/grass.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.welcomeBG{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #87CEEB, #B0C4DE);
+}
+.encounterBG{
+    -fx-background-color: linear-gradient(to bottom, #2683ad, #b3e7ff);
+    -fx-padding: 15px;
+}
+.encounterTitle{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-border-color: red;
+}
+.encounterButton{
+    -fx-background-color: linear-gradient(#2980b9, #3498db);
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+}
+.encounterButton:hover {
+    -fx-background-color: linear-gradient(#3498db, #2980b9);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+    -fx-cursor: hand;
+}
+.welcomeButton {
+    -fx-padding: 15px 35px;
+    -fx-text-fill: #F3ECF0;
+    -fx-border-color: black;
+    -fx-pref-width: 150px;
+    -fx-border-radius: 15px;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 15px;
+}
+.welcomeButton:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: black;
+    -fx-border-color: white;
+}
