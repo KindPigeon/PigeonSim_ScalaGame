@@ -8,3 +8,4 @@ Retro Visuals: Classic rectangles and sprites keep things simple and nostalgic.
 
 🛠️ Tech Stack
 ScalaFX for the GUI
+Scala for game logic
